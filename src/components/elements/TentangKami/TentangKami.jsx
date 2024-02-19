@@ -1,9 +1,9 @@
-import CardAbout from "../utils/CardAbout";
+"use client";
 import maskotSatu from "../../../../public/assets/img/about/tentang-maskot-1.jpg";
 import maskotDua from "../../../../public/assets/img/about/tentang-maskot-2.jpg";
 import Image from "next/image";
-import Link from "next/link";
 import Button from "../utils/Button";
+import { motion } from "framer-motion";
 
 const TenatangKami = () => {
   return (
@@ -11,7 +11,15 @@ const TenatangKami = () => {
       <div className="md:container md:mx-auto px-4">
         <div className="flex lg:flex-row flex-col gap-10 justify-center items-center">
           <div className="flex gap-2">
-            <div className="xl:w-[24rem] lg:w-[20rem]">
+            <motion.div
+              initial={{ opacity: 0, y: 100 }}
+              animate={{
+                opacity: 1,
+                y: 0,
+                transition: { type: "spring", stiffness: 200, damping: 30 },
+              }}
+              className="xl:w-[24rem] lg:w-[20rem]"
+            >
               <div className="">
                 <Image
                   src={maskotSatu}
@@ -30,7 +38,7 @@ const TenatangKami = () => {
                   Bangsri yang mendalami bidang pemasaran
                 </h3>
               </div>
-            </div>
+            </motion.div>
             <div className="xl:w-[24rem] lg:w-[20rem]">
               <div className=" flex flex-col gap-4 md:p-6 p-3 bg-primary text-white text-xl">
                 <h1 className="font-bold xl:text-2xl lg:text-xl text-lg">

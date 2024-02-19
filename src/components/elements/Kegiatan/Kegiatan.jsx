@@ -23,7 +23,7 @@ const Kegiatan = () => {
             Dapatkan pengalaman berharga, bangun mental dan kemampuan berjualan
             yang handal, dan raih masa depan gemilang di dunia marketing!
           </p>
-          <div className="md:block hidden">
+          <div className="hidden">
             <Button text="Lihat Selengkapnya" link="/" />
           </div>
         </div>
@@ -81,7 +81,7 @@ const Kegiatan = () => {
             </div>
           </div>
         </div>
-        <div className="md:hidden block">
+        <div className="hidden">
           <Button text="Lihat Selengkapnya" link="/" />
         </div>
       </div>

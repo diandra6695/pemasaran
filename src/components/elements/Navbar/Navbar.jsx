@@ -13,12 +13,12 @@ import {
 
 const Navbar = () => {
   return (
-    <nav className="w-screen lg:px-20 px-2 fixed z-10 translate-y top-0 bg-white">
+    <nav className="w-screen lg:px-20 px-2 fixed z-10 top-0 bg-white">
       <div className="flex justify-between lg:p-5 p-4 items-center">
         <Link href={"/"} className="logo">
           <Image
-            width={150}
-            height={150}
+            width={50}
+            height={50}
             className="lg:w-32 w-28"
             src={logoPemasaran}
             alt="logo"
