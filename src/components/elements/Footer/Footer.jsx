@@ -43,27 +43,27 @@ const Footer = () => {
               <div className="flex gap-32 mt-2">
                 <ul className="text-sm flex flex-col gap-1">
                   <li>
-                    <Link href="">Beranda</Link>
+                    <Link href="/">Beranda</Link>
                   </li>
                   <li>
-                    <Link href="">Tentang Kami</Link>
+                    <Link href="#about">Tentang Kami</Link>
                   </li>
                   <li>
-                    <Link href="">Kegiatan</Link>
+                    <Link href="#kegiatan">Kegiatan</Link>
                   </li>
                   <li>
-                    <Link href="">Fasilitas</Link>
+                    <Link href="#fasilitas">Fasilitas</Link>
                   </li>
                 </ul>
                 <ul className="text-sm flex flex-col gap-1">
                   <li>
-                    <Link href="">Guru</Link>
+                    <Link href="#guru">Guru</Link>
                   </li>
                   <li>
-                    <Link href="">Testimoni</Link>
+                    <Link href="#testimoni">Testimoni</Link>
                   </li>
                   <li>
-                    <Link href="">Kontak</Link>
+                    <Link href="#kontak">Kontak</Link>
                   </li>
                 </ul>
               </div>
