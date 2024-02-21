@@ -34,9 +34,6 @@ const About = () => {
                 S.Pd
               </h3>
               <h3>
-                <span className="font-bold">NIP :</span> 19900309 202321 1 006
-              </h3>
-              <h3>
                 <span className="font-bold">Jabatan :</span> Kepala Jurusan
                 Pemasaran
               </h3>
